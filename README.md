@@ -32,6 +32,16 @@ of industries and applications when using the Cielab pixel conversion methods.
     <img src="https://github.com/yoyoberenguer/Cielab/blob/main/Cielab/Assets/demo.png?raw=true">
 </p>
 
+---
+
+## Installation from pip
+Check the link for newest version https://pypi.org/project/Cielab/
+
+From the command line 
+```cmd
+C:\>pip install Cielab
+```
+---
 
 ## Some useful color space definitions 
 ### What is Cielab (definition from Wikipedia)
@@ -133,6 +143,11 @@ which greatly aided its acceptance. sRGB uses the same color primaries and white
 standard for HDTV, a transfer function (or gamma) compatible with the era's CRT displays, 
 and a viewing environment designed to match typical home and office viewing conditions.
 
+---
+*In python Idle*
+```
+from Cielab import *
+```
 
 ---
 ## Getting started:
@@ -344,25 +359,6 @@ rgb2xyz(rgb_array_, ref='D65')
 
 ```
 
-<!--<p align="left">
-    <img src="https://github.com/yoyoberenguer/Cielab/blob/main/demo.png?raw=true">
-</p> -->
-
-
-*In python Idle*
-```
-from Cielab import *
-```
----
-
-## Installation from pip
-Check the link for newest version https://pypi.org/project/Cielab/
-
-
-From the command line 
-```cmd
-C:\>pip install Cielab
-```
 
 ## Credit
 Yoann Berenguer 
