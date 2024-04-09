@@ -28,6 +28,11 @@ of industries and applications when using the Cielab pixel conversion methods.
 <!--However, you can choose any of the following illuminant models 'a', 'c', 'e', 'd50', 
 'd55', 'd65', 'icc' when converting a 3d array (except for ADOBE 98) -->
 
+<p align="left">
+    <img src="https://github.com/yoyoberenguer/Cielab/blob/main/Cielab/Assets/demo.png?raw=true">
+</p>
+
+
 ## Some useful color space definitions 
 ### What is Cielab (definition from Wikipedia)
 
@@ -198,11 +203,6 @@ image.show()
 
 ```
 
-
-<p align="left">
-    <img src="https://github.com/yoyoberenguer/Cielab/blob/main/Assets/background2_cielab.png?raw=true">
-</p> 
-
 OpenCv (convert RGB image to CIELAB)
 ```python
 import cv2
@@ -230,9 +230,7 @@ plt.imshow(image)
 plt.show()
 ```
 
-<p align="left">
-    <img src="https://github.com/yoyoberenguer/Cielab/blob/main/Assets/demo.png?raw=true">
-</p> 
+
 
 ### Example showing how to convert color information
 
